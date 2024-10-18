@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # Inledning av Nätverkskabel
 
 ---

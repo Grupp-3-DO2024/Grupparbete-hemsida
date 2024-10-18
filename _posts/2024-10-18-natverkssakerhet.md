@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # Nätverkssäkerhet: En Grundläggande Översikt
 
 I dagens digitala värld är nätverkssäkerhet en kritisk komponent för att skydda information och system från olika typer av hot. Nätverkssäkerhet innebär att implementera åtgärder och strategier för att skydda nätverk från obehörig åtkomst, missbruk, modifiering eller förstörelse av data.
