@@ -1,8 +1,4 @@
-# Inledning
-
----
-
-## Nätverkskabel
+# Inledning av Nätverkskabel
 
 ---
 
