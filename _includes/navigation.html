@@ -1,9 +1,14 @@
 <nav>
     <ul>
+        <li>
+            <a class="nav-entry" href="/">
+                Hem
+            </a>
+        </li>
         {% for post in site.posts %}
         <li>
-            <a class="post-entry" href="{{ post.url }}">
-                <div class="post-title">{{ post.title }}</div>
+            <a class="nav-entry" href="{{ post.url }}">
+                {{ post.title }}
             </a>
         </li>
         {% endfor %}
