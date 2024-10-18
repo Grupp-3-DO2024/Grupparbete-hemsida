@@ -8,8 +8,14 @@
         <link href="/assets/css/home.css" rel="stylesheet">
     </head>
 
-    <body>    
+    <body>
         <header>
+            <button onclick="reveal()">
+                <img src="/assets/images/Blue_Technology_Corporation_Company_Logo_.png" alt="Fin logga (klicka inte)">
+            </button>
+            <audio controls id="audio">
+                <source src="/assets/sound/Agila Tider.mp3">
+            </audio>
             {% include navigation.html %}
         </header>
 
@@ -21,4 +27,17 @@
             {% include names.html %}
         </footer>
     </body>
+
+    <script>
+        function reveal() {
+            let audio = document.getElementById("audio");
+
+            if (audio.style.display === "none") {
+                audio.style.display = "block";
+                audio.play()
+            } else {
+                audio.style.display = "none"
+            }
+        }
+    </script>
 </html>
