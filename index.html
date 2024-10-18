@@ -7,19 +7,18 @@ title: Home
     <link rel="stylesheet" href="/assets/css/home.css">
 </head>
 
-<h1>Andreas Hård</h1>
-<h2>Portfolio</h2>
+<h1>Hej Arash</h1>
 
 <div class="links">
-    {% for item in site.data.navigation %}
-    {% if item.link != "/" %}
-    <a class="{{ item.class }} link" href="{{ item.link }}">
-        <div class="{{ item.class }}-text link-text">
-            <h3>{{ item.name }}</h3>
-            <p>{{ item.description }}</p>
-        </div>
-        <img src="{{ item.image }}" alt="Link to {{ item.name }}">
-    </a>
-    {% endif %}
-    {% endfor %}
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a class="post-entry" href="{{ post.url }}">
+                <div class="post-date">{{ post.date | date_to_string }}</div>
+                <div class="post-title">{{ post.title | upcase }}</div>
+                <div class="post-desc">{{ post.description }}</div>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
