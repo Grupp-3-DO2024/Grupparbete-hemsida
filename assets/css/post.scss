@@ -1,2 +1,26 @@
 ---
 ---
+
+.content {
+    h1 {
+        font-size: 3rem;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+
+    ol {
+        li {
+            margin-top: 0.5rem;
+        }
+    }
+
+    hr {
+        border-top: 0.1rem solid;
+        color: var(--accent);
+    }
+}
