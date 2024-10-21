@@ -1,13 +1,13 @@
 <nav>
     <ul>
         <li>
-            <a class="nav-entry" href="/">
+            <a href="/">
                 Hem
             </a>
         </li>
         {% for post in site.posts %}
         <li>
-            <a class="nav-entry" href="{{ post.url }}">
+            <a href="{{ post.url }}">
                 {{ post.title }}
             </a>
         </li>
