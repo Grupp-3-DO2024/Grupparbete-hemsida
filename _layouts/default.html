@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content='{{ page.description }}'>
-        <link href="/assets/css/home.css" rel="stylesheet">
+        <link href="/assets/css/default.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="/assets/images/Blue_Technology_Corporation_Company_Logo_.png">
     </head>
 
     <body>
@@ -13,7 +14,7 @@
             <button class="logo-btn" onclick="reveal()">
                 <img class="logo-img" src="/assets/images/Blue_Technology_Corporation_Company_Logo_.png" alt="Fin logga (klicka inte)">
             </button>
-            <audio controls id="audio">
+            <audio loop id="audio">
                 <source src="/assets/sound/Agila Tider.mp3">
             </audio>
             {% include navigation.html %}
@@ -32,12 +33,7 @@
         function reveal() {
             let audio = document.getElementById("audio");
 
-            if (audio.style.display === "none") {
-                audio.style.display = "block";
-                audio.play()
-            } else {
-                audio.style.display = "none"
-            }
+            return audio.paused ? audio.play() : audio.pause();
         }
     </script>
 </html>
