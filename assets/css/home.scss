@@ -1,2 +1,42 @@
 ---
 ---
+
+main {
+    .title {
+        display: flex;
+
+        h1 {
+            font-size: 6rem;
+            font-weight: 200;
+        }
+
+        h2 {
+                font-size: 2.5rem;
+                font-weight: normal;
+                color: var(--accent);
+        }
+
+        .gears {
+            width: 50rem;
+            fill: var(--accent);
+        }
+    }
+
+    
+    .svgs {
+        display: flex;
+        justify-content: space-around;
+        
+        .globe {
+            width: 12rem;
+        }
+    
+        .wifi {
+            width: 12rem;
+        }
+
+        .support {
+            width: 12rem;
+        }
+    }
+}
