@@ -1,0 +1,107 @@
+# Trådlösa Nätverk 
+
+## Wi-Fi/WLAN (Wireless Local Area Network) 
+
+Wi-Fi bygger på radiovågor för att överföra data trådlöst mellan enheter. Signalerna sänds och tas emot via antenner som finns inbyggda i nätverksutrustningen. 
+
+### Standarder och Hastigheter 
+
+IEEE 802.11 är grundstandarden för trådlösa nätverk och har utvecklats i flera versioner: 
+
+#### Wi-Fi 4 (802.11n) 
+
+- Hastighet upp till 600 Mb/s 
+
+- Använder både 2,4 GHz och 5 GHz frekvensband 
+
+- Bakåtkompatibel med äldre standarder 
+
+- Vanlig i äldre routrar och enheter 
+
+#### Wi-Fi 5 (802.11ac) 
+
+- Hastighet upp till 3,5 Gb/s 
+
+- Använder huvudsakligen 5 GHz bandet 
+
+- Standardval i de flesta moderna routrar 
+
+#### Wi-Fi 6 (802.11ax) 
+
+- Hastighet upp till 9,6 Gb/s 
+
+- Använder både 2,4 GHz och 5 GHz band 
+
+- Optimerad för miljöer med många anslutna enheter 
+
+- Förbättrad energieffektivitet 
+
+- Inkluderar OFDMA för effektivare dataöverföring 
+
+### Frekvensband 
+
+#### 2,4 GHz 
+
+- Längre räckvidd genom bättre penetration av väggar 
+
+- Mer utsatt för störningar från andra enheter 
+
+- Lägre maxhastighet 
+
+- Använder kanalerna 1-13 (i Europa) 
+
+#### 5 GHz 
+
+- Kortare räckvidd men högre hastighet 
+
+- Mindre störningskänsligt 
+
+- Fler tillgängliga kanaler 
+
+- Bättre för streaming och gaming 
+
+### Faktorer som påverkar prestanda: 
+
+- Avstånd mellan enhet och router/accesspunkt 
+
+- Fysiska hinder som väggar och möbler 
+
+- Antal anslutna enheter 
+
+- Vald kanal och bandbredd 
+
+- Routerns/accesspunktens kvalitet 
+
+### En beskrivning av olika trådlösa standarder och deras prestanda: 
+
+| Standard  | Max Hastighet | Frekvensband | Primär Användning      | 
+
+| --------- | ------------- | ------------- | ---------------------- | 
+
+| Wi-Fi 4   | 600 Mb/s       | 2,4/5 GHz     | Grundläggande användning| 
+
+| Wi-Fi 5   | 3,5 Gb/s       | 5 GHz         | HD-streaming           | 
+
+| Wi-Fi 6   | 9,6 Gb/s       | 2,4/5 GHz     | 4k streaming, gaming   | 
+
+## Vanliga problem och lösningar: 
+
+- **Signalstyrkan minskar kraftigt om:** 
+
+  - För många väggar mellan router och enhet 
+
+  - Störningar från andra elektroniska apparater 
+
+  - Överlappande kanaler med närliggande nätverk 
+
+### Optimering av trådlöst nätverk: 
+
+- Placera routern centralt och högt upp 
+
+- Välj mindre trafikerade kanaler 
+
+- Använd mesh-system för större ytor 
+
+- Uppdatera regelbundet routerns mjukvara 
+
+- Begränsa antalet samtidigt anslutna enheter per accesspunkt 
