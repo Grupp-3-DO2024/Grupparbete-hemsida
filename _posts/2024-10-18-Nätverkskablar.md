@@ -87,4 +87,5 @@ Den senaste standarden för nätverkskablar och delas upp i två olika klasser, 
 | 2,5GBase-T   | 2500 Mb/s (2,5 Gb/s) | TP-kabel, fyra ledningspar är i bruk. Lämpligt med Cat. 5e-kablar. |
 | 5GBase-T     | 5000 Mb/s (5 Gb/s) | TP-kabel, fyra ledningspar är i bruk. Lämpligt med Cat. 6-kablar. |
 | 10GBaseT     | 10000 Mb/s (10 Gb/s) | TP-kabel, fyra ledningspar är i bruk. Fungerar med Cat. 6, Cat. 6a-, Cat. 7- och Cat 8-kablar. |
+
 ##### 100Base-TX används för att beskriva nätverkshastighet och kabeltyp. I detta fall betyder 100 att hastigheten är 100 megabit per sekund, Base att det är basbandsöverföring (vanlig nätverkstrafik), och TX att det är en TP-kabel där endast två av de fyra paren används.
